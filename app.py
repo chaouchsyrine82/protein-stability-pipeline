@@ -253,12 +253,12 @@ COMBOS_TRAIN = {
         "direct": None, "reverse": None,
         "par_source": {"ProTherm dérivés": 4464, "ThermoMutDB": 2872, "FireProtDB": 49446},
     },
-    "ProTherm + ThermoMutDB + FireProtDB + train.csv": {
+    "ProTherm + ThermoMutDB + FireProtDB + Megadataset": {
         "avant_dedup": 846338, "apres_dedup": 845380, "doublons": 958,
         "stab": 149448, "destab": 149448, "neutre": 546484,
         "stab_pct": 17.7, "destab_pct": 17.7, "neutre_pct": 64.6,
         "direct": 422691, "reverse": 422689,
-        "par_source": {"ProTherm dérivés": 4464, "ThermoMutDB": 2872, "FireProtDB": 49446, "train.csv": 735716},
+        "par_source": {"ProTherm dérivés": 4464, "ThermoMutDB": 2872, "FireProtDB": 49446, "Megadataset": 735716},
         "is_final": True,
     },
 }
@@ -1278,7 +1278,7 @@ elif page == "🔗  Combinaison des datasets d'entraînement":
         ("🟣 ProTherm derives", "S2648 (1,441) + S9028 (3,596) = 5,037", "#6366f1"),
         ("🟢 ThermoMutDB", "2,872 mutations finales", "#10b981"),
         ("🟠 FireProtDB", "49,446 mutations finales", "#f59e0b"),
-        ("🔵 train.csv", "Megadataset symetrique — base d'entrainement principale", "#3b82f6"),
+        ("🔵 Megadataset", "Megadataset symetrique — base d'entrainement principale", "#3b82f6"),
     ]
     for col, (title, sub, clr) in zip([c1,c2,c3,c4], bases):
         with col:
