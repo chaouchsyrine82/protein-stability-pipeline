@@ -1275,7 +1275,7 @@ elif page == "🔗  Combinaison des datasets d'entraînement":
     st.markdown('<div class="sec">Datasets de base</div>', unsafe_allow_html=True)
     c1, c2, c3, c4 = st.columns(4)
     bases = [
-        ("🟣 ProTherm derives", "S2648 (1,441) + S9028 (3,596) + broom(360) + strum(161) + Ponstab(935) =6,493", "#6366f1"),
+        ("🟣 ProTherm derives", "S2648 (1,441) + S9028 (3,596) + broom(360) + strum(161) + Ponstab(935) =6,493 mutations finales", "#6366f1"),
         ("🟢 ThermoMutDB", "2,872 mutations finales", "#10b981"),
         ("🟠 FireProtDB", "49,446 mutations finales", "#f59e0b"),
         ("🔵 Megadataset", "Megadataset symetrique — base d'entrainement principale et contient 735,716 mutations finales", "#3b82f6"),
